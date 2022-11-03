@@ -3,6 +3,10 @@ import time
 from selenium import webdriver as wb
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver import Firefox
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.options import Options
+from random import choice
 
 #setup
 driver = wb.Firefox()
@@ -35,6 +39,25 @@ def main(): #trzeba też jakoś zakończyć pętle
         else:
             dodajOdpowiedzDoSlownika(pytanie,odpowiedz)
  
+# times = [0.9856,1.27,3.12,3.45,4.764,7.03948]
+
+# profile_path = r'C:\Users\bogda\AppData\Roaming\Mozilla\Firefox\Profiles\4mscljzm.default-release'
+# options=Options()
+# options.set_preference('profile', profile_path)
+# options.set_preference("dom.webdriver.enabled", False)
+# options.set_preference('useAutomationExtension', False)
+# options.add_argument('--disable-blink-features=AutomationControlled')
+# service = Service('C:\Drivers\geckodriver-v0.32.0-win64\geckodriver.exe')
+# driver = Firefox(service=service, options=options)
+# driver.get("https://bot.incolumitas.com/")
+# # rchoice = choice(times)
+# # print(rchoice)
+# # sleep(rchoice)
+# # driver.get("https://www.youtube.com")
+# # rchoice = choice(times)
+# # print(rchoice)
+# # sleep(rchoice)
+# driver.quit()
 
 
 
