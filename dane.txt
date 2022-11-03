@@ -1,0 +1,5 @@
+pytanie,odpowiedz
+dana,szukana
+2,dwa
+osiem,siedem
+czynascie,3
