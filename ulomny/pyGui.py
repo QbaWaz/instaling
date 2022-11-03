@@ -21,3 +21,4 @@ tekstZpliku = ocr.image_to_string(plik)
 print(tekstZpliku)
 '''
 #DODAĆ TESERAKTA DO PATHA
+# ok
